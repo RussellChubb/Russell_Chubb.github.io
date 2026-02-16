@@ -32,6 +32,30 @@ theme: jekyll-theme-console
 plugins:
   - jekyll-seo-tag
 
+# other config?
+header_pages:
+  - index.markdown
+  - about.markdown
+  - CV.markdown
+  - Projects.markdown
+
+style: nord # dark (default), light, hacker, or nord
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'follow me on <a href="https://github.com/RussellChubb">Github</a>'
+disable_google_fonts: false
+
+# Generic tracking (optional; loads only in production)
+# tracking:
+#   script_src:
+#     - https://cdn.example.com/tracker.js
+#   async: true   # default true
+#   defer: false  # default false
+#   # Optional inline init snippet (requires CSP allowance if used)
+#   # init: |
+#   #   window.myTracker=window.myTracker||function(){(window.myTracker.q=window.myTracker.q||[]).push(arguments)};
+#   #   myTracker('init', { siteId: '12345' });
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
